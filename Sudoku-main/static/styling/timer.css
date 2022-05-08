@@ -1,0 +1,49 @@
+#timer {
+    margin-left: 8px;
+    margin-bottom: 87px;
+    width: 260px;
+    height: 100px;
+    background-color: rgb(211, 211, 211, .2);
+    border-radius: 5px;
+}
+
+#timer {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 40px;
+}
+
+#sudoku-timer {
+    letter-spacing: 5px;
+    transform: translateY(60%);
+}
+
+#timer-settings {
+    transform: translateY(145%);
+    width: 260px;
+    height: 50px;
+}
+
+#timer-pause,
+#timer-resume {
+    border: 1px solid black;
+    background-color: rgb(211, 211, 211, .2);
+    font-size: 22px;
+    width: 48%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#timer-pause:hover,
+#timer-resume:hover {
+    background-color: rgb(128, 128, 127, .4);
+}
+
+#timer-pause {
+    float: left;
+}
+
+#timer-resume {
+    float: right;
+}

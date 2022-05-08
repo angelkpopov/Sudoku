@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport'>
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="./static/styles.css">
+    <link rel="icon" type="x-icon" href="./src/sudoku-icon.png">
+    <script src="https://kit.fontawesome.com/f5c28c5dbd.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+            <h1 id="header-title">Sudoku</h1>
+            <nav id="header-options">
+                <ul id="header-list-items">
+                    <li class="option-list-items">New</li>
+                    <li class="option-list-items">Check</li>
+                    <li class="option-list-items">Reset</li>
+                    <li class="option-list-items">Solve</li>
+                </ul>
+            </nav>
+    </header>
+    <main id="sudoku-content">
+        <section id="content-game">
+            <ul id="board"></ul>
+            <aside id="numpad">
+                <div id="timer">
+                    <div id="sudoku-timer">0:00</div>
+                    <div id="timer-settings">
+                        <button id="timer-pause">PAUSE</button>
+                        <button id="timer-resume">RESUME</button>
+                    </div>
+                </div>
+            </aside>
+        </section>
+
+        <section id="article">
+            <article id="about-sudoku">
+                <h2>About Sudoku</h2>
+                <p>
+                    Sudoku is a logic-based, combinatorial number-placement puzzle.
+                </p>
+                <p>
+                    Number puzzles appeared in newspapers in the late 19th century, when French puzzle setters began
+                    experimenting with removing numbers from magic squares. Le Siècle, a Paris daily, published a
+                    partially completed 9x9 magic square with 3x3 subsquares on November 19, 1892. It was not a
+                    Sudoku because it contained double-digit numbers and required arithmetic rather than logic to solve,
+                    but it shared key characteristics: each row, column and subsquare added up to the same number.
+                </p>
+            </article>
+            <article id="how-to-play">
+                <h2>How to play</h2>
+                <p>
+                    In classic Sudoku, the objective is to fill a 9 x 9 grid with digits so that each column, each row,
+                    and each of the nine 3 x 3 subgrids that compose the grid (also called "boxes", "blocks", or
+                    "regions") contain all of the digits from 1 to 9. The puzzle setter provides a partially completed
+                    grid, which for a well-posed puzzle has a single solution.
+                </p>
+            </article>
+            <article id="about-this-project">
+                <h2>About this project</h2>
+                <p>
+                    This project is open source.
+                </p>
+                <p>
+                    Open source is source code that is made freely available for possible modification and
+                    redistribution. Products include permission to use the source code, design documents, or
+                    content of the product. The open-source model is a decentralized software development model that
+                    encourages open collaboration.
+                </p>
+                <p>
+                    Open source promotes universal access via an open-source or free license to a product's design or
+                    blueprint, and universal redistribution of that design or blueprint. Before the phrase open
+                    source became widely adopted, developers and producers have used a variety of other terms. Open
+                    source gained hold with the rise of the Internet. The open-source software movement arose to
+                    clarify copyright, licensing, domain, and consumer issues.
+                </p>
+            </article>
+        </section>
+    </main>
+ 
+    <footer id="footer">
+        <h2 id="footer-main-name"> Zahari Cheyrekov</h2>
+            
+                <ul id="icon-links">
+                    <li id="github-icon">
+                        <a href="https://github.com/ZahariCheyrekov">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        </i>
+                    </li>
+                    <li id="linkedin-icon">
+                        <a href="https://www.linkedin.com/in/zahari-cheyrekov-5647a9227/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul> 
+        
+    </footer>
+    <script type="module" src="./src/app.js"></script>
+</body>
+
+</html>

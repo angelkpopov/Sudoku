@@ -1,0 +1,90 @@
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+
+   
+
+}
+
+main {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+
+#content-game {
+    display:flex;
+    flex-flow: row wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+#board {
+
+    display:flex;
+    flex-flow: column nowrap;
+
+    flex-shrink: 0;
+    margin-left: 2%;
+    
+}
+
+#board ul {
+    display: flex;
+    flex-flow: row nowrap;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    
+}
+
+#board ul li{
+    padding: 10px;
+    
+}
+
+.squares {
+    width: 56px;
+    height: 56px;
+    border: 1px solid rgb(169, 169, 169, .6);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayPuzzleSquares {
+    background-color: rgb(211, 211, 211, .2);
+}
+
+
+
+#board ul li:nth-child(3), #board ul li:nth-child(6){
+    border-right: 2px solid black;;
+}
+
+
+
+#board ul:nth-child(3n){
+    border-bottom: 2px solid black;;
+}
+
+#board ul:first-child{
+    border-top: 2px solid black;;
+}
+
+.entered-numbers {
+    color: rgb(64, 155, 240);
+}
+
+.cell-color {
+    background-color: rgb(194, 225, 253);
+} 
+
+#numpad {
+    flex-shrink: 2;
+}

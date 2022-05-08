@@ -1,0 +1,44 @@
+footer {
+    width: 100%;
+    height: 5rem;
+
+    background-color: rgb(32, 46, 64);
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid rgba(100, 63, 150, .1);
+
+}
+
+footer * {
+    color: white;
+}
+
+footer h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex-shrink: 2;
+}
+
+footer  ul{
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: space-around;
+    list-style: none;
+    
+}
+
+
+footer nav ul li{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+
+#github-icon,
+#linkedin-icon {
+    margin-left: 1.5rem;
+}

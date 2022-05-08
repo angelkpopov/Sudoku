@@ -1,0 +1,29 @@
+#article {
+    display: flex;
+    flex-flow: column nowrap;
+
+    
+    width: 85%;
+
+    margin: 0 auto;
+
+}
+
+#article article {
+    align-self: baseline;
+}
+h2 {
+    color: rgb(32, 46, 64);
+    padding: 1rem 0;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: black;
+    margin: 1.5rem 0;
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    word-spacing: 5px;
+} 
